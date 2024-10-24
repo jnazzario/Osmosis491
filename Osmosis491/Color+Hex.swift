@@ -1,6 +1,4 @@
 import SwiftUI
-
-// MARK: - Color Extension for Hex
 extension Color {
     init?(hex: String) {
         var hexSanitized = hex.trimmingCharacters(in: .whitespacesAndNewlines)
