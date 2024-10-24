@@ -1,6 +1,4 @@
 import SwiftUI
-
-// MARK: - EmptyPileView
 struct EmptyPileView: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 8)
