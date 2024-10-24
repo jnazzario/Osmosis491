@@ -1,6 +1,4 @@
 import SwiftUI
-
-// MARK: - CardView
 struct CardView: View {
     let card: Card
 
