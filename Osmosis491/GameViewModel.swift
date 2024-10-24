@@ -1,7 +1,5 @@
 import Foundation
 import SwiftUI
-
-// MARK: - Game ViewModel
 class GameViewModel: ObservableObject {
     @Published var deck: [Card] = []
     @Published var reservePiles: [[Card]] = [[], [], [], []]
