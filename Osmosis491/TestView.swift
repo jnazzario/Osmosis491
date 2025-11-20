@@ -64,6 +64,7 @@ struct TestView: View {
                                     .font(.custom("TAN - MON CHERI", size: 17))
                                     .foregroundColor(.black)
                                     .padding()
+                                    .padding()
                                     .frame(width: geometry.size.width * 0.25)
                                     .background(Color(hex: "#5ab2a1"))
                                     .cornerRadius(20)
